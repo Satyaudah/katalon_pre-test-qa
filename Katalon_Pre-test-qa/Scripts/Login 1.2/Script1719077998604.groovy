@@ -67,13 +67,33 @@ WebUI.verifyElementPresent(findTestObject('Login_Page/Dribble_Logo2'), 30)
 
 WebUI.verifyElementPresent(findTestObject('Login_Page/Copyright_Label2'), 30)
 
-WebUI.setText(findTestObject('Login_Page/Username_Textfield'), 'John Do')
+WebUI.setText(findTestObject('Login_Page/Username_Textfield'), 'John Doe')
 
-WebUI.setText(findTestObject('Login_Page/Password_Textfield'), 'ThisIsNotAPasswor')
+WebUI.setText(findTestObject('Login_Page/Password_Textfield'), 'ThisIsNotAPassword')
 
 WebUI.click(findTestObject('Login_Page/Login_Button'))
 
-WebUI.verifyElementPresent(findTestObject('Login_Page/Error_Message'), 30)
+WebUI.verifyElementPresent(findTestObject('Appointment_Page/Make_Appointment_Label'), 30)
+
+WebUI.verifyElementPresent(findTestObject('Appointment_Page/Facility_Label'), 30)
+
+WebUI.verifyElementPresent(findTestObject('Appointment_Page/Apply_For_Hospital_Readmission_Label'), 30)
+
+WebUI.verifyElementPresent(findTestObject('Appointment_Page/Healtcare_Program_Label'), 30)
+
+WebUI.verifyElementPresent(findTestObject('Appointment_Page/Medicare_Label'), 30)
+
+WebUI.verifyElementPresent(findTestObject('Appointment_Page/Medicaid_Label'), 30)
+
+WebUI.verifyElementPresent(findTestObject('Appointment_Page/None_Label'), 30)
+
+WebUI.verifyElementPresent(findTestObject('Appointment_Page/Visit_Date_Label'), 30)
+
+WebUI.verifyElementPresent(findTestObject('Appointment_Page/Comment_Label'), 30)
+
+WebUI.verifyElementPresent(findTestObject('Appointment_Page/CURA Healthcare_menu-toggle3'), 30)
+
+WebUI.verifyElementPresent(findTestObject('Appointment_Page/Book_Appointment_Button'), 30)
 
 WebUI.closeBrowser()
 
