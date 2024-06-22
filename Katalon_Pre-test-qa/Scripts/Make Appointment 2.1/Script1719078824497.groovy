@@ -17,21 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject(null), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Appointment_Page/Facility_Dropdown'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject(null), 30)
+WebUI.click(findTestObject('Appointment_Page/Apply_For_Hospital_Readmission_Chechbox'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject(null), 30)
+WebUI.click(findTestObject('Appointment_Page/Medicare_Radiobutton'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject(null), 30)
+WebUI.setText(findTestObject('Appointment_Page/Comment_Textfield'), 'Set Appointment')
 
-WebUI.verifyElementPresent(findTestObject(null), 30)
+WebUI.click(findTestObject('Appointment_Page/Book_Appointment_Button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject(null), 30)
-
-WebUI.verifyElementPresent(findTestObject(null), 30)
-
-WebUI.verifyElementPresent(findTestObject(null), 30)
-
-WebUI.verifyElementPresent(findTestObject(null), 30)
+WebUI.verifyElementPresent(findTestObject(null), 0)
 
