@@ -23,7 +23,49 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.maximizeWindow()
 
+WebUI.verifyElementPresent(findTestObject('Main_Page/Cura_Healthcare_Service_Label1'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Main_Page/We_Care_About_Your_Health_Label'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Main_Page/Cura_Healthcare_Service_2_Label1'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Main_Page/Address_label1'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Main_Page/Phone_number_Label'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Main_Page/Mail_Label1'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Main_Page/Facebook_Button1'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Main_Page/Twitter_Logo'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Main_Page/Dribbble_Logo1'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Main_Page/Copyright_Label1'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Main_Page/CURA Healthcare_menu-toggle1'), 0)
+
 WebUI.click(findTestObject('Main_Page/Make_Appointment_Button'))
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Label'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Please_Login_Label2'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Cura_Healthcare_Service_Label2'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Address_Label2'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Phone_Number_Label2'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Mail_Label2'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Facebook_Logo2'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Twitter_Logo2'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Dribble_Logo2'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Copyright_Label2'), 0)
 
 WebUI.setText(findTestObject('Login_Page/Username_Textfield'), 'John Do')
 
