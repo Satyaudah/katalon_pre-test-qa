@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with valid data</description>
+   <name>Login 1.2 without close browser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5f35bcd2-0958-4157-b016-1d548acef38b</testCaseGuid>
+</TestCaseEntity>
