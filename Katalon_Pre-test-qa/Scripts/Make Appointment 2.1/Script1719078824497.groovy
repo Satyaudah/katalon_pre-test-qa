@@ -27,5 +27,7 @@ WebUI.setText(findTestObject('Appointment_Page/Comment_Textfield'), 'Set Appoint
 
 WebUI.click(findTestObject('Appointment_Page/Book_Appointment_Button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject(null), 0)
+WebUI.takeScreenshot('C:\\Users\\Satyaudah\\Documents\\katalon_pre-test-qa\\Katalon_Pre-test-qa\\Error Message.png', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 
